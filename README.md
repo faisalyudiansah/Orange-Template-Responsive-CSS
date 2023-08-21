@@ -12,7 +12,7 @@ Orange template - responsive (HTML - CSS)
 <br>
 <br>
 ## <li>Slide 2 (Phone version)</li>
-![readme3phone](https://github.com/faisalyudiansah/Orange-Template-Responsive-CSS/assets/142356615/4ab7404f-0ec6-4a60-b155-595b161de4e6)
+![readme4phone](https://github.com/faisalyudiansah/Orange-Template-Responsive-CSS/assets/142356615/b50ed930-5636-4bcd-8dde-01631c8ffd9a)
 <br>
 <br>
 <br>
