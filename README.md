@@ -1,2 +1,2 @@
-# Orange-Template-Responsive-CSS
+# Orange-Template-Responsive-HTML-CSS
 Orange template - responsive (HTML - CSS)
