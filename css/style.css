@@ -1,0 +1,486 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(240, 59, 27); */
+    background-color: rgb(219, 181, 57);
+}
+
+  /* Dropdown button */
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    font-family:'Outfit', sans-serif;
+    background-color: inherit; /* transparant */
+    color: white;
+}
+  
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #fee97d;
+    border-radius: 12px;
+}
+  
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(239, 240, 237);
+    min-width: 150px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    display: block;
+    color:  rgb(219, 181, 57);
+    text-decoration: none;
+    text-align: left;
+    padding: 10px 16px;
+}
+  
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 0px;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+.logo a {
+    color: rgb(239, 240, 237);;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin-left: 35px;
+    line-height: 80px;
+}
+
+.logo a:hover {
+    color: white;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    margin-right: 45px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 43px;
+    margin: 0 6px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    font-family:'Outfit', sans-serif;
+}
+
+nav a:hover {
+    background-color: #fee97d;
+    border-radius: 12px;
+}
+
+.nav-search {
+    background-color: rgb(239, 240, 237);
+    color:  rgb(219, 181, 57);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 4px 13px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 18px;
+    width: 150px;
+}
+
+.nav-search:hover {
+    background-color: white;
+}
+
+.menu-btn {
+    float: right;
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 40px;
+    color: rgb(237, 240, 238);
+    cursor: pointer;
+    display: none;
+}
+
+#press-menu {
+    display: none;
+}
+
+::placeholder {
+    color: rgb(255, 179, 165);
+}
+
+.container-card {
+    background-image: url('../assets/card-pic/1.jpg');
+    transition: 1s ease;
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    background-color:  rgb(219, 181, 57);
+    color: white;
+}
+
+.header-card {
+    display: none;
+}
+
+.header-card2 {
+    display: block;
+    text-align: center;
+}
+
+
+.header-title {
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    color:  rgb(219, 181, 57);
+    font-family: 'Outfit', sans-serif;
+}
+
+.header-title2 {
+    margin: 0px;
+    padding: 30px;
+    font-size: 80px;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(92, 90, 90);
+}
+
+.p1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: rgb(92, 90, 90);
+    margin-top: 0px;
+}
+
+.p2 {
+    font-family: 'Outfit', sans-serif;
+    margin-top: 9%;
+    color: rgb(92, 90, 90);
+}
+
+.download-smartphone {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(219, 181, 57);
+    box-shadow: 0 3px 0px 1px rgba(80, 79, 79, 0.4);
+    padding: 15px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.download-smartphone:hover {
+    background-color: #fee97d;
+}
+
+.card-wrapper {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    background-color: rgb(239, 240, 237);
+    font-family: 'Permanent Marker', cursive;
+    color:  rgb(219, 181, 57);
+    width: 240px;
+    height: 240px;
+    margin: 5px;
+    margin-bottom: 35px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 5px 0px rgba(228, 194, 6, 0.801);
+}
+
+.card:hover { 
+    background-color: white;
+}
+
+.card-icons {
+    margin-top: 10px;
+    color: rgb(219, 181, 57);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.card-icons:hover {
+    font-size: 33px;
+    margin-top : 2px;
+    color: rgb(175, 145, 45);
+    transition: 0.1s;
+}
+
+.card-btn {
+    background-color:  rgb(219, 181, 57);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    font-family: 'Outfit', sans-serif"
+}
+
+.card-btn:hover {
+    background-color: rgb(175, 145, 45);
+    font-weight: bolder;
+}
+
+.footer {
+    color: white;
+    font-family:'Outfit', sans-serif;
+    margin: 40px;
+    text-align: justify;
+}
+
+.next-btn {
+    font-size: 60px;
+    cursor: pointer;
+    padding: 16px;
+    color: rgb(219, 181, 57);
+    width: auto;
+    float: right;
+    margin-top: 13%;
+}
+
+.prev-btn {
+    font-size: 60px;
+    cursor: pointer;
+    padding: 16px;
+    color: rgb(219, 181, 57);
+    width: auto;
+    float: left;
+    margin-top: 13%;
+}
+
+.next-btn:hover {
+    color: rgb(239, 240, 237);
+    cursor: pointer;
+}
+
+.prev-btn:hover {
+    color: rgb(239, 240, 237);
+    cursor: pointer;
+}
+
+#press-next {
+    display: none;
+}
+
+#press-next:checked ~ .card-wrapper {
+    display: block;
+}
+
+#press-next:checked ~ .header-card {
+    display: block;
+}
+
+#press-next:checked ~ .header-card2 {
+    display: none;
+}
+
+
+@media screen and (max-width:875px) {
+    .menu-btn {
+        display: block;
+    }
+
+    #press-menu:checked ~ .next-btn {
+        display: blocks;
+    }
+
+    .nav-search {
+        margin-left: 29px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 20px;
+        line-height: 30px;
+    }
+    
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(219, 181, 57);
+        top: 64px;
+        left: -100%;
+        text-align: left;   /*change nav.search too*/
+        transition: all 0.5s;
+    }
+
+    #press-menu:checked ~ ul {
+        left: 0;
+    }
+
+    .header-title2 {
+        font-size: 55px;
+    }
+
+    .p2 {
+        margin-top: 16%;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .header-title2 {
+        font-size: 50px;
+    }
+    
+    .card {
+        width: 95%;
+    }
+
+    .card-icons {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .card-icons:hover {
+        font-size: 45px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #fee97d;
+        transition: 0.1s;
+    }
+
+    .card-btn {
+        padding: 8px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .logo a {
+        margin-left: 15px;
+    }
+
+    .menu-btn {
+        margin-right: 30px;
+    }
+
+    .header-title2 {
+        font-size: 40px;
+    }
+
+    .p1 {
+        font-size: 15px;
+    }
+
+    .p2 {
+        margin-top: 30%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .logo a {
+        font-size: 35px;
+    }
+
+    .menu-btn {
+        margin-right: 15px;
+        margin-right: 20px;
+    }
+
+    .next-btn {
+        font-size: 40px;
+    }
+    
+    .prev-btn {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:290px) {
+    .header-title2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:265px) {
+    .logo a {
+        margin-left: 10px;
+    }
+
+    .nav-search {
+        width: 90px;
+    }
+
+    .menu-btn {
+        font-size: 24px;
+    }
+
+    .header-title2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:215px) {
+    .logo a {
+        font-size: 25px;
+    }
+
+    .menu-btn {
+        margin-right: 15px;
+        font-size: 24px;
+    }
+
+    .header-title2 {
+        font-size: 18px;
+    }
+
+    .next-btn {
+        font-size: 28px;
+    }
+    
+    .prev-btn {
+        font-size: 28px;
+    }
+
+    .download-smartphone {
+        font-size: 12px;
+    }
+    
+    .p1 {
+        font-size: 13px;
+    }
+
+    .p2 {
+        font-size: 13px;
+        margin-top: 47%;
+    }
+}
