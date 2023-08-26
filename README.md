@@ -3,7 +3,7 @@
 Orange template - responsive (HTML - CSS)
 <br>
 <br>
-## <li>PC / Laptop Version</li>
+## <li>PC / Laptop version</li>
 ![readme1](https://github.com/faisalyudiansah/Orange-Template-Responsive-CSS/assets/142356615/40463189-46a3-4ac7-8f13-7dd64fe1b5ef)
 <br>
 <br>
